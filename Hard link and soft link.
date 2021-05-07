@@ -1,0 +1,16 @@
+Hard Link :
+A hard link acts as a copy (mirrored) of the selected file. 
+It accesses the data available in the original file.
+If the earlier selected file is deleted, the hard link to the file will still contain the data of that file.
+
+Soft Link :
+A soft link (also known as Symbolic link) 
+acts as a pointer or a reference to the file name. 
+It does not access the data available in the original file. 
+If the earlier file is deleted, the soft link will be pointing to a file that does not exist anymore.
+
+command : 
+ln : for creating hard link 
+      (ex. ln mylink)
+In -s : for creating soft link 
+       ( ex. ln -s myfile )
