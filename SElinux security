@@ -1,0 +1,12 @@
+Security-Enhanced Linux (SELinux) is a security architecture for Linux systems that allows administrators to have more control over who can access the system.
+ 
+*SELinux has three modes:
+1. Enforcing:  SELinux policy is enforced. 
+               SELinux denies access based on SELinux policy rules.
+2. Permissive: SELinux policy is not enforced.
+               SELinux does not deny access, but denials are logged for actions that would have been denied if running in enforcing mode.
+3. Disabled:   SELinux is disabled.
+
+*Important Security-enhanced Linux (SELinux) commands
+1. getenforce : To see the current status of SELinux.
+2. Setenforce : The current SELinux status can also be changed with the “setenforce” command .
