@@ -1,9 +1,54 @@
 # Linux-file-system
 
 1.linux file system :
-  
+
+Important and basic comments 
+
+1. pwd: This command tells us about the present working directory. This gives the complete path of the current working directory.
+        (ex: $ pwd)
+2. touch: This command creates new empty file in the current working directory.
+        (Touch school)
+3. mkdir: This command is used to make a new directory.
+         (ex: $ mkdir Sakshi)
+4. cd: cd stands for change directory. This command is used to change the current working directory.
+5. cat: This command can read, modify or concatenate text files. It also displays file contents.
+        ex: $ cat ......  (This will show the contents of file)
+
+6.rmdir: This command is used to remove a directory. 
+         (This command can be used when a directory is empty.) 
+         (ex: $ rmdir ........)
+7. rmdir -r : -r is the option used with rmdir command that removes a directory with all of its contents.
+         (ex: $ rmdir -r .....)
+8. rm: This command is used to remove  a file.
+        it deletes all the files and sub-directories recursively of the parent directory
+          (ex : $ rm Sakshi)
+9. cp : cp stands for copy. This command cpoies the contents of a file to another file.
+         (ex: $ cp abc pqr)
+       it copy contents of file abc to pqr
+ * cp -r  : for copy directory and its contents
+10. ls : ls stands for list. 
+        This commands lists the contents of a directory.
+11. mv: mv stands for move. This command moves the contents of one directory to another.
+         (ex: $ mv yellow orange)
+      contents of yellow will be moved to orange
+12. df : df stands for disk filesystem. It is used to display disk space used in the filesystem.
+         ex: $ df   
+13. man: This command used to display the manual of any command. 
+         (ex: $ man rmdir)
+14. head: head command prints top N lines of a file. By default it prints first 10 lines.
+         (ex: $ head abc)
+15. tail: tail command prints last N lines of the file. By default it prints last 10 lines.
+         (ex: $ tail abc)
+16. ping: ping command is a simple utility used to check whether a network is available and if a host is reachable.
+         ex: $ ping .....
+17. uname: This command prints the system information.
+         ex: $ uname
+18. top: This command is used to display information about CPU and memory utilization.
+         ex: top -n 10
+19. vi : for writing content.
 
 Directories and its types-
+
      -/bin - In this,it commands & runs applications and programs.
      -/boot - In this ,boot files present which helps to start device.
      -/media - In this , external storage will be mounted when plugged in.
