@@ -37,8 +37,13 @@ How to create a partition:
  10. Reboot.
 
 Some commands :
-
-parted -l : for list the partition.
+  1.list block with UUID Lsblk                       - fs /dev/vdb
+  2.list partitions                                  - parted -l
+  3.make label to a partition                        - parted /dev/vdb mklabel msdos
+  4.create a partition                               - mkpart
+  5.wait till partition is registered successfully   - udevadm settle
+  6.format file system with XFS file system          - mkfs.xfs /dev/vdb1
+  7.restart daemon service                           - systemctl daemon-reload
 
 
 
