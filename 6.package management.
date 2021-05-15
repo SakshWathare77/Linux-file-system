@@ -17,12 +17,12 @@ Some commands :
       To reverse a transaction    - yum history undo INDEXNUMBER
 
  
- Yam Repository:
+YUM Repository:
    1.It is warehouse of linux software.
    2.It holds a number of.RPM package file and enable download and installation
      of new software on our VPS.
   
-**How package management systems work:
+How package management systems work:
 If a certain package requires a certain resource such as a shared library or another package, it is said to have a dependency. All
 modern package management systems provide some method of dependency resolution to ensure that when a package is installed, all of its 
 dependencies are installed as well.
