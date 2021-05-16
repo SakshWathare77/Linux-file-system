@@ -34,7 +34,7 @@ How to create a partition:
   7. Add entry in fstab.
   8. Systemctl daemon-reload.
   9. Mount the partition on the directory.
- 10. Reboot.
+ 
 
 Some commands :
   1.list block with UUID Lsblk                       - fs /dev/vdb
